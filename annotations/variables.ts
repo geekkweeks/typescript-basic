@@ -9,6 +9,11 @@ let names: string[] = ['alf', 'zah', 'ole']
 let scores: number[] = [3, 34, 4, 2, 2]
 let boolArray: boolean[] = [true, false, false, false, false]
 
+// type of variable will be any
+let isCar
+isCar = true
+
+
 
 //Class
 class Student { }
