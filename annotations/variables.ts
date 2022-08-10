@@ -26,3 +26,12 @@ let employee: { nik: number, name: string, address: string, isMarried: boolean }
     address: 'Bambu street',
     isMarried: false,
 }
+
+
+const epl = ['Arsenal', 'Mu', 'Chelsea', 'Liverpool']
+let isArsenal: boolean;
+
+for (let i = 0; i < epl.length; i++) {
+    if (epl[i].toLowerCase() === 'arsenal')
+        isArsenal = true
+}
