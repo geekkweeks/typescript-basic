@@ -31,7 +31,17 @@ let employee: { nik: number, name: string, address: string, isMarried: boolean }
 const epl = ['Arsenal', 'Mu', 'Chelsea', 'Liverpool']
 let isArsenal: boolean;
 
+// Union type
+let isLiverpool: boolean | string
+
 for (let i = 0; i < epl.length; i++) {
-    if (epl[i].toLowerCase() === 'arsenal')
+    if (epl[i].toLowerCase() === 'arsenal') {
         isArsenal = true
+    }
+
+    if (epl[i].toLowerCase() === 'liverpool') {
+        isLiverpool = true
+        isLiverpool = epl[i]
+    }
+
 }
